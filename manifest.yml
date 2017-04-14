@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: Lab8_Nhom7
+  host: Lab8-Nhom7
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
